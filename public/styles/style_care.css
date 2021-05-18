@@ -1,0 +1,103 @@
+body{
+    background-image: url("../images/background.png");
+}
+
+.blok1{
+  background-color:  #FFCC99;
+  width: 85%;
+  height:auto;
+  border: solid black;
+  margin: auto;
+  margin-top: 2%;
+  border-radius: 30px;
+  box-shadow: 0px 0px 0px 3px #FFCC99;
+  padding: 0 2% 2%;
+}
+
+.blok1_wedth{
+  width: 60%;
+  padding: 2%;
+  justify-content: space-around;
+}
+
+.logo{
+  width: 30%;
+  height: 20%;
+  border-radius: 30px;
+  margin-right: 5%;
+  margin-bottom: 3%; 
+}
+
+.title{
+  color: #8B4513;
+  font-size: 65px;
+  text-shadow:  1px 1px 2px black;
+}
+
+.text{
+  background-color: #FFCC99;
+  color: #8B4513;
+  font-size: 22px;
+}
+
+.content{
+  padding: 0 7rem 0 7rem;
+}
+
+.display{
+  display: flex;
+}
+
+.title_menu li a {
+  color: #8B4513;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.title_menu li:hover {
+  opacity: 50%;
+}
+
+.title_menu ul li{
+  margin-right: 5px;
+  padding: 3px;
+}
+
+ul {
+    margin: 3%;
+    padding: 4px;
+    list-style: url(../images/pointer.png);
+}
+
+a {
+  text-decoration: none;
+  cursor: url(../images/pointer.png), pointer;
+}
+
+button{
+  cursor: url(../images/pointer.png), pointer;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+li{
+  list-style-image: url(../images/pointer.png);
+}
+
+.button{
+  color: #8B4513;
+  background-color: #FFCC99;
+  border: none;
+  text-shadow:  1px 1px 2px black;
+  font-size: 30px;
+}
+
+.button:hover{
+   opacity: 50%;
+}
+
+.button:focus{
+  outline: none;
+}

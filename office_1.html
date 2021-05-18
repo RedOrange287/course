@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="rus">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="public/styles/style_office_1.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<div class="blok1">
+	    <div class="display">
+	      <img class="logo blok1_wedth" src="public/images/logo_draft.png">
+	      <div>
+	      	<h1 class="title"> Ваша конура </h1>
+	      </div>
+	    </div>
+	    <div>
+			<form class="personalData">
+				<div class="personalDataKeys">
+					<div>Имя</div>
+					<div>Фамилия</div>
+					<div>Национальность</div>
+					<div>email</div>
+					<br>
+					<div>Порода</div>
+					<div>Кличка</div>
+					<div>Пол</div>
+					<div>Дата рождения</div>
+					<div>Вес</div>
+					<div>Рост</div>
+					<div>Окрас</div>
+				</div>
+				<div class="personalDataValues">
+					<input type="text" value="{{name}}" readonly>
+					<input type="text" value="{{surname}}" readonly>
+					<input type="text" value="{{nation}}" readonly>
+					<input type="text" value="{{email}}" readonly>
+					<br>
+					<input type="text" value="{{breed}}" readonly>
+					<input type="text" value="{{nickname}}" readonly>
+					<input type="text" value="{{gender}}" readonly>
+					<input type="text" value="{{birthdate}}" readonly>
+					<input type="text" value="{{weight}}" readonly>
+					<input type="text" value="{{height}}" readonly>
+					<input type="text" value="{{color}}" readonly>
+				</div>
+			</form>	    	
+	    </div>   	
+	</div>
+</body>
+</html>

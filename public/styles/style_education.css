@@ -1,0 +1,93 @@
+body{
+    background-image: url("../images/background.png");
+}
+
+.blok_1{
+  background-color:  #FFCC99;
+  width: 85%;
+  height:auto;
+  border: solid black;
+  margin: auto;
+  margin-top: 2%;
+  border-radius: 30px;
+  box-shadow: 0px 0px 0px 3px #FFCC99;
+  padding: 0 2% 2%;
+}
+
+.blok1_wedth{
+  width: 85%;
+  padding: 2%;
+  justify-content: space-around;
+}
+
+.logo{
+  width: 45%;
+  height: 20%;
+  border-radius: 30px;
+  margin:auto;
+  margin-right: 3%;
+  margin-top: 3%;  
+}
+
+.title_menu li a {
+  color: #8B4513;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.title_menu li:hover {
+  opacity: 50%;
+}
+
+.title_menu ul li{
+  margin-right: 5px;
+  padding: 3px;
+}
+
+ul {
+    margin: 0;
+    padding: 4px;
+    list-style: url(../images/pointer.png);
+}
+
+a {
+  text-decoration: none;
+  cursor: url(../images/pointer.png), pointer;
+}
+
+button{
+  cursor: url(../images/pointer.png), pointer;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+li{
+  list-style-image: url(../images/pointer.png);
+}
+
+
+.title{
+  color: #8B4513;
+  font-size: 70px;
+  text-shadow:  1px 1px 2px black;
+}
+
+
+.title_1{
+  color: #8B4513;
+  font-size: 50px;
+  text-shadow:  1px 1px 2px black;
+}
+
+.text{
+  background-color: #FFCC99;
+  color: #8B4513;
+  font-size: 22px;
+}
+
+.display{
+  display: flex;
+}
+
