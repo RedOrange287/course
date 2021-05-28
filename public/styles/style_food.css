@@ -1,7 +1,8 @@
 body{
     background-image: url("../images/background.png");
 }
-.blok1{
+
+.blok_1{
   background-color:  #FFCC99;
   width: 85%;
   height:auto;
@@ -14,7 +15,7 @@ body{
 }
 
 .blok1_wedth{
-  width: 60%;
+  width: 85%;
   padding: 2%;
   justify-content: space-around;
 }
@@ -23,20 +24,59 @@ body{
   width: 30%;
   height: 20%;
   border-radius: 30px;
-  margin-right: 5%;
-  margin-bottom: 3%; 
+  margin-right: 10%;
+  margin-top: 3%;  
 }
+
+.title_menu li a {
+  color: #8B4513;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.title_menu li:hover {
+  opacity: 50%;
+}
+
+.title_menu ul li{
+  margin-right: 5px;
+  padding: 3px;
+}
+
+ul {
+    margin: 0;
+    padding: 4px;
+    list-style: url(../images/pointer.png);
+}
+
+a {
+  text-decoration: none;
+  cursor: url(../images/pointer.png), pointer;
+}
+
+button{
+  cursor: url(../images/pointer.png), pointer;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+li{
+  list-style-image: url(../images/pointer.png);
+}
+
 
 .title{
   color: #8B4513;
-  font-size: 100px;
+  font-size: 70px;
   text-shadow:  1px 1px 2px black;
 }
 
 
 .title_1{
   color: #8B4513;
-  font-size: 60px;
+  font-size: 50px;
   text-shadow:  1px 1px 2px black;
 }
 
