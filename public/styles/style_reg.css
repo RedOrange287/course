@@ -2,14 +2,83 @@ body{
 		background-image: url("../images/background.png");
 }
 
+.bloсk_1 {
+  background-color:  #FFCC99;
+  width: 85%;
+  border: solid black;
+  margin: 3%;
+  margin-left: 6%;
+  border-radius: 30px;
+  box-shadow: 0px 0px 0px 3px #FFCC99;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 30%;
+  height: auto;
+  border-radius: 30px;
+}
+
+.title_menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title_menu li a {
+  color: #8B4513;
+    font-size: 24px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.title_menu li:hover {
+  opacity: 50%;
+}
+
+.title_menu ul li{
+  display: flex;
+  margin-right: 5px;
+  padding: 3px;
+}
+
+ul {
+    margin: 0;
+    padding: 4px;
+    display: flex;
+    list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: url(pointer.png), pointer;
+}
+
+button{
+  cursor: url(pointer.png), pointer;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+li{
+  float: left;
+  margin: 1%;
+  margin-right: 7%;
+    list-style-image: url(pointer.png);
+}
+
 .blok1{
   background-color:  #FFCC99;
   height: auto;
   border: solid black;
-  width: 90%;
+  width: 85%;
   border-radius: 30px;
   box-shadow: 0px 0px 0px 3px #FFCC99;
   margin: 3%;
+  margin-left: 6%;
 }
 
 .text{
