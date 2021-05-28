@@ -1,6 +1,74 @@
 body{
 	background-image: url("../images/background.png");
 }
+.bloсk_1 {
+  background-color:  #FFCC99;
+  width: 89%;
+  margin: auto;
+  border: solid black;
+  margin-top: 2%;
+  border-radius: 30px;
+  box-shadow: 0px 0px 0px 3px #FFCC99;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+}
+
+.title_menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title_menu li a {
+  color: #8B4513;
+    font-size: 24px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.title_menu li:hover {
+  opacity: 50%;
+}
+
+.title_menu ul li{
+  display: flex;
+  margin-right: 5px;
+  padding: 3px;
+}
+
+ul {
+    margin: 0;
+    padding: 4px;
+    display: flex;
+    list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: url(pointer.png), pointer;
+}
+
+button{
+  cursor: url(pointer.png), pointer;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+li{
+  float: left;
+  margin: 1%;
+  margin-right: 7%;
+    list-style-image: url(pointer.png);
+}
+
 
 .blok1{
   background-color:  #FFCC99;
@@ -20,17 +88,18 @@ body{
 
 .doghouse_menu {
   border-radius: 30px;
-  width: 30%;
-  height: 40%;
+  width: 20%;
+  height: auto;
   padding-right: 5rem;
   padding-left: 5rem;
   margin-top: auto;
   margin-bottom: auto;
+  margin-left: 18rem;
 }
 
 .title{
   color: #8B4513;
-  font-size: 70px;
+  font-size: 80px;
   text-shadow:  1px 1px 2px black;
   margin-left: 3%;
   margin-top: 2%;
@@ -38,7 +107,7 @@ body{
 
 .text{
   color: #8B4513;
-  font-size: 22px;
+  font-size: 24px;
   margin-left: 3%;
   width: 60%;
 }
@@ -65,21 +134,25 @@ body{
   border: none;
   margin: 1%;
   text-shadow:  1px 1px 2px black;
-  font-size: 25px;
+  font-size: 30px;
   border-width: 2px;
   outline: none;
 }
 
 .text_form{
   color: #8B4513;
-  font-size: 21px;
+  font-size: 25px;
   margin-left: 1%;
   width: 60%;
 }
 
 .title_form{
   color: #8B4513;
-  font-size: 50px;
+  font-size: 60px;
   text-shadow:  1px 1px 2px black;
   margin: 2%;
+}
+
+a{
+  padding-left: 3%;
 }
