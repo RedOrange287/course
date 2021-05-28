@@ -9,20 +9,22 @@
 	<div class="blok1">
 		<div class="hatter">
 			<img src="public/images/logo_draft.png" class="doghouse_menu">
-			<form method="post" action="/office.html" class="form">
-				<h1 class="title_form">Вход</h1>
-				<div>
-					<input type="email" name="email" class="input text">
-					<label class="text_form">Email</label>
-				</div>
-				<div>
-					<input type="password" name="password"  class="input text">
-					<label class="text_form">Пароль</label>
-				</div>
-				<button type="submit" class="button_form">Войти</button>
-				<span>{{errMsg}}</span>
-			</form>
-			<a href="reg.html"><button class="button_form">Регистрация</button></a>
+			<div style="display: inline;">
+					<form method="post" action="/office.html" class="form">
+						<h1 class="title_form">Вход</h1>
+						<div>
+							<input type="email" name="email" class="input text">
+							<label class="text_form">Email</label>
+						</div>
+						<div>
+							<input type="password" name="password"  class="input text">
+							<label class="text_form">Пароль</label>
+						</div>
+						<button type="submit" class="button_form">Войти</button>
+						<span>{{errMsg}}</span>
+					</form>
+					<a href="reg.html"><button class="button_form">Регистрация</button></a>
+			</div>
 		</div>
 	</div>
 </body>
