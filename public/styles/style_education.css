@@ -21,11 +21,10 @@ body{
 }
 
 .logo{
-  width: 45%;
+  width: 30%;
   height: 20%;
   border-radius: 30px;
-  margin:auto;
-  margin-right: 3%;
+  margin-right: 10%;
   margin-top: 3%;  
 }
 
