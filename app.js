@@ -29,6 +29,10 @@ app.get("/reg.html", (req, res) => {
     res.sendFile(__dirname + "/reg.html");
 });
 
+app.get("/mael_calculation.html", (req, res) => {
+    res.sendFile(__dirname + "/mael_calculation.html");
+});
+
 app.get("/office.html", (req, res) => {
     //res.sendFile(__dirname + "/office.html");
     if (person.people_id == -1) {
