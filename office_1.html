@@ -6,16 +6,28 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+	<div class="bloсk_1">
+		<div>
+			<a title="Главная страница" href="main_draft.html"><img class="logo" src="public/images/logo_draft.png"></a>
+		</div>
+		<div class="title_menu">
+			<ul>
+				<li><a href="breeds.html">Породы</a></li>
+				<li><a href="care.html">Уход</a></li>
+				<li><a href="food.html">Питание</a></li>
+				<li><a href="education.html">Воспитание</a></li>
+				<li><a href="health.html">Здоровье</a></li>
+			</ul>
+		</div>
+	</div>
 	<div class="blok1">
 	    <div class="display">
-	      <img class="logo blok1_wedth" src="public/images/logo_draft.png">
 	      <div>
-	      	<h1 class="title"> Ваша конура </h1>
-	      </div>
-	    </div>
-	    <div>
-			<form class="personalData">
-				<div class="personalDataKeys">
+	      	<h1 class="title"> Ваш личный кабинет </h1>
+	      	<p>Рассчитать питание для вашей собаки вы можете <a href="
+	      		mael_calculation.html">здесь</a></p>
+	      	<form class="data">
+				<div class="keys">
 					<div>Имя</div>
 					<div>Фамилия</div>
 					<div>Национальность</div>
@@ -29,7 +41,7 @@
 					<div>Рост</div>
 					<div>Окрас</div>
 				</div>
-				<div class="personalDataValues">
+				<div class="values">
 					<input type="text" value="{{name}}" readonly>
 					<input type="text" value="{{surname}}" readonly>
 					<input type="text" value="{{nation}}" readonly>
@@ -44,7 +56,22 @@
 					<input type="text" value="{{color}}" readonly>
 				</div>
 			</form>	    	
-	    </div>   	
+	      </div>
+	    </div>  	
+	</div>
+	<div class="bloсk_1">
+		<div>
+			<img class="logo" src="public/images/logo_draft.png">
+		</div>
+		<div class="title_menu">
+			<ul>
+				<li><a href="#">Помощь</a></li>
+				<li><a href="#">Контакты</a></li>
+				<li><a href="#">Полезное</a></li>
+				<li><a href="#">Источники</a></li>
+				<li><a href="#">Литература</a></li>
+			</ul>
+		</div>
 	</div>
 </body>
 </html>
