@@ -33,6 +33,26 @@ app.get("/mael_calculation.html", (req, res) => {
     res.sendFile(__dirname + "/mael_calculation.html");
 });
 
+app.get("/breeds.html", (req, res) => {
+    res.sendFile(__dirname + "/breeds.html");
+});
+
+app.get("/care.html", (req, res) => {
+    res.sendFile(__dirname + "/care.html");
+});
+
+app.get("/education.html", (req, res) => {
+    res.sendFile(__dirname + "/education.html");
+});
+
+app.get("/food.html", (req, res) => {
+    res.sendFile(__dirname + "/food.html");
+});
+
+app.get("/health.html", (req, res) => {
+    res.sendFile(__dirname + "/health.html");
+});
+
 app.get("/office.html", (req, res) => {
     //res.sendFile(__dirname + "/office.html");
     if (person.people_id == -1) {
